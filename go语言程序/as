@@ -1,0 +1,20 @@
+curl 'https://eapply.abchina.com/coin/coin/CoinSubmitRequest?issueid=I146&orgsbatch=1' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H $'Cookie: Hm_lvt_aaca25918a94e5c351646b457e25211d=1713437465; ptbeSessionId=ce67aade-131b-42be-a5f7-f67ae6ef2315; Hm_lvt_2adfb955e896558eaaf6a8d222fda613=1713442099; BIGipServerpool_pt_eapply.abchina.com_443_CreditCardApp=\u0021jlxz16yy2L+2Ia9WPSGTs6kpC4eNXWfuUH9xPx4sgkcZBTVguTKReO/cataOXPRLpcdfylG5No62; BIGipServerpool_pt_eapply.abchina.com_443_branch=\u0021vrO1c/5b2qJl1i9OuDyo03aOoTIq0XAx5bzEVfyb7AI3P2jEGm+2Vs2Sv7Zs1wIZb0FXhH0RT2l9; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2200000000000%22%2C%22first_id%22%3A%2218ef12f1dce58a-001e33452e00b3cc-26001a51-2286144-18ef12f1dd0ad%22%2C%22props%22%3A%7B%7D%2C%22%24device_id%22%3A%2218ef12f1dce58a-001e33452e00b3cc-26001a51-2286144-18ef12f1dd0ad%22%7D; BIGipServerpool_pt_entapply=\u0021PdUtfZgOxmzPN1J9Q7SvEImITdcoynmk8gdONBuZv20m+UExQFpSNdkQRys5nEX6BSBO/0+q9Tvu; BIGipServerpool_pt_eapply.abchina.com_coin=\u0021TzBBAW17cxOY0AVocp9Gd0uEUBOy/lC+VygnNJRDSnbHUzH7ZUtM9isruNbi8n+TYQUI9NCOYhJ3Og==; Hm_lpvt_2adfb955e896558eaaf6a8d222fda613=1713446785; WT_FPC=id=260af5b48a96ae395d81713437464002:lv=1713448841660:ss=1713437464002; Hm_lpvt_aaca25918a94e5c351646b457e25211d=1713448842; CoinCaptchaCode=X6bdLeIE8X/J2D32saoQHq5TR1z75kT3YfuiB30mWOX3gRvhBMIB8Czg+UqgcblqKSniceA0BBPFTDMVXMKS9g==; parm=7+IM89ZrxxvPCBESKZ8MbTBI6ype0o+Q5qRhyL+Hpxl4ITnq3hldQg08WPsyZWWbu7tn5CnzasAEsyJvNxqUfFtQNILi+sD/SyyCM9e2kzs=' \
+  -H 'Origin: https://eapply.abchina.com' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://eapply.abchina.com/coin/coin/OrdinaryCoinRequest?issueid=I146&batchOrder=1&t=1713450631001' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw 'name=%E6%B2%88%E5%9D%87&cardtype=0&identNo=612429200009305633&mobile=15691560669&piccode=umxu&phoneCaptchaNo=590836&orglevel1=269999&orglevel2=261000&orglevel3=261403&orglevel4=261407&cardvalue0=20&cardid0=201926&coindate=2024-04-20&issueid=I146&orgsbatch=1&extraparam=param'
